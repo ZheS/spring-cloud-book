@@ -1,16 +1,18 @@
-# Node rules:
-## Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
-.grunt
+*.class
+target/
 
-## Dependency directory
-## Commenting this out is preferred by some people, see
-## https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git
-node_modules
 
-# Book build output
+# Eclipse project files
+.classpath
+.project
+.settings
+
+# IDEA metadata and output dirs
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# gitbook
 _book
-
-# eBook build output
-*.epub
-*.mobi
-*.pdf
+tmp
